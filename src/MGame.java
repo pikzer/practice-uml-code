@@ -26,6 +26,7 @@ public class MGame {
 
     public void playGame(){
         for(roundCat = 1 ; roundCat <= N ; roundCat++) {
+            System.out.println("------------- Round " + roundCat + " -------------");
             playRound();
         }
     }
